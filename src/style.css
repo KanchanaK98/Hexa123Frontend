@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Merriweather+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee9e9;
+}
+#navigation-bar {
+  height: 70px;
+  background-color: rgb(0, 0, 0, 0.85);
+}
+#navigation-bar li {
+  list-style: none;
+  display: inline;
+}
+#navigation-bar ul li a {
+  float: right;
+  display: block;
+  color: aliceblue;
+  background-color: rgb(236, 232, 247, 0.1);
+  font-family: "Merriweather Sans";
+  padding: 10px;
+  margin: 15px 70px 0px 30px;
+  border-radius: 10px;
+}
+#navigation-bar ul li a:hover,
+.active {
+  background-color: rgba(255, 255, 255);
+  color: black;
+}
+
+
+.dropdown {
+  float: right;
+  display: block;
+  color: rgb(0, 0, 0);
+  background-color: rgb(236, 232, 247, 0.1);
+  font-family: "Merriweather Sans";
+  padding: 0px;
+  margin: 15px 70px 0px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: rgb(247, 242, 242);
+  padding: 10px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8f8f8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a, p {
+  float: none;
+  color: rgb(235, 6, 6);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(10, 10, 10);
+  color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+i.fa-bars {
+  color: aliceblue;
+  float: left;
+  font-size: 40px;
+  margin: 15px 10px 10px 20px;
+}
+
+#slidshow {
+  overflow: hidden;
+  background: linear-gradient(
+    to bottom,
+    rgb(253, 252, 255),
+    rgb(236, 236, 240),
+    rgb(83, 83, 87),
+    rgb(2, 1, 10)
+  );
+}
+
+figure {
+  position: relative;
+  width: 300%;
+  margin: 0;
+  left: 0;
+  animation: 30s slide infinite;
+}
+
+#slidshow figure img {
+  width: 300px;
+  height: 400px;
+  float: left;
+  margin: 30px 0px 20px 20px;
+  border-radius: 3px;
+}
+@keyframes slide {
+  0% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -150%;
+  }
+}
+.text {
+  background-color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  z-index: 1;
+  width: 70%;
+  padding: 0px 50px 30px 50px;
+  border-radius: 20px;
+}
+.text h1 {
+  font-size: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.text p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  margin: 20px 0px 40px 40px;
+}
+.fa-ellipsis-h {
+  font-size: 70px;
+  margin-left: 47%;
+}
+
+.header1 {
+  height: 100px;
+  margin: 20px 0px;
+  font: 23px "Merriweather Sans";
+  background-color: #d1cdcd;
+  padding: 35px 0px 0px 30px;
+  box-shadow: 1px 5px 10px 1px;
+}
+.questions {
+  background-color: #ffffff;
+  width: 60%;
+  font-size: 20px;
+  margin: 0px 30px;
+  padding: 10px;
+
+  border-radius: 20px;
+}
+
+.questions li img {
+  float: right;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.questions ol li,
+.discription {
+  font: 30px "Akaya Telivigala", cursive;
+  background-color: rgb(189, 185, 185);
+  margin: 50px;
+  padding: 20px;
+  list-style-position: inside;
+  box-shadow: 1px 1px 4px 1px;
+}
+
+.center {
+  width: 60%;
+  height: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #d1cdcd;
+  border-radius: 20px;
+}
+.fa-lightbulb {
+  color: red;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.submition {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #020202;
+  padding: 10px;
+  float: right;
+  color: #ffffff;
+  margin: 10px 20px;
+  border-radius: 10px;
+}
+.submition:hover {
+  background-color: #ffffff;
+  padding: 15px;
+  color: #000000;
+}
+label:hover {
+  font-size: 35px;
+}
+
+.side-image {
+  width: 450px;
+  height: 600px;
+  float: right;
+  top: 0;
+  margin: 30px;
+  position: sticky;
+  position: -webkit-sticky;
+}
+
+footer {
+  height: 300px;
+  background-color: #223122;
+  padding: 30px;
+}
+table,
+tr,
+td {
+  width: 40%;
+  margin: 40px;
+  color: #eee9e9;
+  font-family: "Merriweather Sans";
+  font-size: 15px;
+}
+
+.icons {
+  float: right;
+}
+
+.icons img {
+  border-radius: 20px;
+  margin-left: 20px;
+}
+footer p {
+  color: #eee9e9;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 0.5rem;
+  
+}
+
+.social-icons p {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 60px;
+  transition: 0.3s;
+}
+
+.social-icons p:hover {
+  transform: scale(2);
+}
+
+.fas .fab {
+  width: 50px;
+  
+}
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-linkedin-in {
+  color: #eee9e9;
+  font-size: 40px;
+  
+}

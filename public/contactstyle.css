@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Merriweather+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  background-image: url(Background.jpeg);
+  background-size: cover;
+}
+#navigation-bar {
+  height: 70px;
+  background-color:#001a66;
+}
+#navigation-bar li {
+  list-style: none;
+  display: inline;
+ 
+}
+#navigation-bar ul a {
+  float: right;
+  display: block;
+  color:aliceblue;
+  background-color: rgb(236, 232, 247, 0.1);
+  font-family: "Merriweather Sans";
+  font-weight: bold;
+  padding: 10px;
+  margin: 15px 70px 0px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+#navigation-bar ul a:hover,
+.active {
+  background-color:rgba(255, 255, 255);
+  color:black;
+}
+
+i.fa-bars {
+  color: aliceblue;
+  float: left;
+  font-size: 40px;
+  margin: 15px 10px 10px 20px;
+}
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  width: 35%;
+  background-color: rgb(254, 255, 255);
+  border-radius: 10px;
+  overflow: hidden;
+  display: grid;
+}
+
+form {
+  padding: 5rem 5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.title {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: 0.7rem;
+}
+
+.contact-info {
+  padding: 5rem;
+  position: relative;
+}
+
+.contact-info .title {
+  color: #891abc;
+}
+
+.text {
+  color: #333;
+}
+
+.information {
+  display: flex;
+  color: #555;
+  margin-top: 1rem;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+.icon {
+  width: 28px;
+  margin-right: 1rem;
+}
+
+.social-media {
+  padding: 2rem 0 0 0;
+}
+
+.social-media p {
+  color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+.social-icons {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.social-icons a {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 1rem;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(2);
+}
+
+.fas .fab {
+  width: 50px;
+}
+
+
+.social-icons {
+  display: flex;
+  margin-top: 0.5rem;
+  
+}
+
+.social-icons p {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 60px;
+  transition: 0.3s;
+}
+
+.social-icons p:hover {
+  transform: scale(2);
+}
+
+
+
+p .fa-facebook, p .fa-twitter, p .fa-instagram, p .fa-linkedin-in {
+  color: #eee9e9;
+  font-size: 40px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  height: 370px;
+  background-color:#223122;
+  padding: 30px;
+  margin-bottom: 0px;
+}
+table,
+tr,
+td {
+  width: 40%;
+  margin: 40px;
+  color:#fff;
+  font-family: "Merriweather Sans";
+  font-size: 15px;
+}
+
+.icons {
+  float: right;
+}
+
+.icons img {
+  border-radius: 20px;
+  margin-left: 20px;
+}
+footer p {
+  color: #fff;
+  margin: 40px;
+}
+
+
+
+
+
+
